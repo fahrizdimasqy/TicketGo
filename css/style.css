@@ -1,0 +1,121 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.navbar .navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .navbar-brand span {
+  color: #1F78FF;
+}
+
+/* End Navbar */
+/* Hero */
+.hero {
+  margin-top: 200px;
+}
+
+.hero input {
+  border: 1px solid #0E00F0;
+}
+
+p {
+  color: #626262;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.hero img {
+  width: 90%;
+}
+
+/* End Hero */
+/* Parnert */
+#parnert {
+  position: relative;
+}
+
+#partner .jumbotron {
+  height: 722px;
+}
+
+#partner img {
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+}
+
+/* End Partner */
+#service {
+  position: absolute;
+}
+
+#service .card {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+}
+
+/* end partnert */
+/* choose-us */
+#choose-us img {
+  width: 80%;
+}
+
+/* end choose us */
+/* Bets Seller */
+#best-seller .card {
+  width: 18rem;
+  border-radius: 10px;
+}
+
+#best-seller .card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.see-detail {
+  color: #737373;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  color: #5278FF;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* End Best Seller */
+/* Discount */
+#discount .jumbotron-yellow {
+  background-color: #FFF7E3;
+}
+
+#discount input {
+  width: 35%;
+}
+
+/* End Discount */
+/* Footer */
+#footer {
+  background-color: #00186F;
+  color: white !important;
+}
+
+#footer .footer-content {
+  padding-top: 15%;
+}
+
+/* End Footer */
+h1, h3 {
+  color: #476FFF;
+  font-weight: bold;
+}
+
+.btn-right {
+  position: absolute;
+  right: 50px;
+}
