@@ -21,15 +21,17 @@
 </head>
 
 <body>
+
   <!-- Navbar Section -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container ml-3">
+    <div class="container">
       <a class="navbar-brand" href="#"><span>Ticket</span>Go</a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -41,19 +43,48 @@
             <a class="nav-link" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Pricing</a>
           </li>
+
         </ul>
-        <a href="" class="btn btn-danger justify-content-right btn-right">Get Started</a>
+
+        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        <a href="" class="btn btn-warning text-white justify-content-right btn-right">Get Started</a>
       </div>
     </div>
   </nav>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span>Ticket</span>Go</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <a href="" class="btn btn-warning text-white justify-content-right btn-right">Get Started</a>
+    </div>
+  </nav>
+  </div> -->
   <!-- End Vavbar Section -->
   <!-- Hero Section -->
   <div class="hero">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <h1>Buy Ticket Online,more easyly & cheaply</h1>
           <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolore qui, maxime quasi, aspernatur ipsa placeat voluptates facilis culpa aperiam doloribus dolorem eligendi molestias odit quas aliquid ad quidem
             consequatur.
@@ -63,7 +94,7 @@
             <button class="btn btn-primary">Get Started</button>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="images/undraw_printing_invoices_5r4r.svg" alt="">
         </div>
       </div>
@@ -86,8 +117,30 @@
 
   <!-- Service -->
   <div id="service">
-    <div class="card">
-      <div class="card-body"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 info-panel">
+          <h3 class="text-center mt-5 mb-5">Services</h3>
+          <div class="row text-center">
+            <div class="col-lg ">
+              <img src="images/ticket 1.png" alt="">
+              <h5 class="mt-4">Online Ticketing</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolore qui, ma xime quasi, aspernatur ipsa pl</p>
+            </div>
+            <div class="col-lg">
+              <img src="images/event-planner 1.png" alt="">
+              <h5 class="mt-4">Online Ticketing</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolore qui, ma xime quasi, aspernatur ipsa pl</p>
+            </div>
+            <div class="col-lg">
+              <img src="images/point-of-sale 1.png" alt="">
+              <h5 class="mt-4">Online Ticketing</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolore qui, ma xime quasi, aspernatur ipsa pl</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
   <!-- End Service -->
@@ -109,48 +162,54 @@
   <!-- End Choose Us -->
 
   <!-- Best Seller -->
-  <div id="best-seller" class="mt-5">
+  <div id="best-seller" class="mt-5 mb-5">
     <div class="container">
       <h3 class="text-center mb-5">Best Seller</h3>
       <div class="row">
-        <div class="col-lg-4">
-          <div class="card">
-            <img class="card-img-top" src="images/c5e08c16b53d52c4aaf64da8c11b8646.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Workshop Laravel</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a libero tempore quae distinctio </p>
-              <hr>
-              <div class="d-flex justify-content-between">
-                <a href="" class="see-detail">See Detail</a>
-                <p class="price">Rp. 150.000</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="product-item">
+            <div class="card">
+              <img class="card-img-top" src="images/c5e08c16b53d52c4aaf64da8c11b8646.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Workshop Laravel</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a libero tempore quae distinctio </p>
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <a href="" class="see-detail">See Detail</a>
+                  <p class="price">Rp. 150.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="product-item">
+            <div class="card">
+              <img class="card-img-top" src="images/0e627c12c05e4dd93ab122d618ea7849.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Workshop Laravel</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a libero tempore quae distinctio </p>
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <a href="" class="see-detail">See Detail</a>
+                  <p class="price">Rp. 150.000</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card">
-            <img class="card-img-top" src="images/0e627c12c05e4dd93ab122d618ea7849.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Workshop Laravel</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a libero tempore quae distinctio </p>
-              <hr>
-              <div class="d-flex justify-content-between">
-                <a href="" class="see-detail">See Detail</a>
-                <p class="price">Rp. 150.000</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img class="card-img-top" src="images/c5e08c16b53d52c4aaf64da8c11b8646.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Workshop Laravel</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a libero tempore quae distinctio </p>
-              <hr>
-              <div class="d-flex justify-content-between">
-                <a href="" class="see-detail">See Detail</a>
-                <p class="price">Rp. 150.000</p>
+          <div class="product-item">
+            <div class="card">
+              <img class="card-img-top" src="images/c5e08c16b53d52c4aaf64da8c11b8646.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Workshop Laravel</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a libero tempore quae distinctio </p>
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <a href="" class="see-detail">See Detail</a>
+                  <p class="price">Rp. 150.000</p>
+                </div>
               </div>
             </div>
           </div>
@@ -163,11 +222,13 @@
   <!-- Discount -->
   <div id="discount">
     <div class="container">
-      <div class="jumbotron jumbotron-yellow text-center">
-        <h3>20 % off in all tickets purchase</h3>
-        <div class="d-flex justify-content-center">
-          <input class="form-control mr-2" type="text" name="" id="" placeholder="Enter Your Email">
-          <button type="button" name="button" class="btn btn-danger">Test</button>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 discount-panel">
+          <h3 class="text-center mt-5 ">20 % off in all tickets purchase</h3>
+          <div class="d-flex justify-content-center mb-5">
+            <input class="form-control mr-2" type="text" name="" id="" placeholder="Enter Your Email">
+            <button type="button" name="button" class="btn btn-warning text-white">Get Started</button>
+          </div>
         </div>
       </div>
     </div>

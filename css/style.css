@@ -2,7 +2,17 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Navbar */
+h1, h3 {
+  color: #476FFF;
+  font-weight: bold;
+}
+
+.btn-right {
+  position: absolute;
+  right: 50px;
+}
+
+/* Navbar Section*/
 .navbar .navbar-brand {
   font-weight: bold;
 }
@@ -11,8 +21,7 @@ body {
   color: #1F78FF;
 }
 
-/* End Navbar */
-/* Hero */
+/* Hero Section*/
 .hero {
   margin-top: 200px;
 }
@@ -31,41 +40,40 @@ p {
   width: 90%;
 }
 
-/* End Hero */
-/* Parnert */
+/* Parnert Section */
 #parnert {
   position: relative;
 }
 
 #partner .jumbotron {
-  height: 722px;
+  height: 600px;
 }
 
 #partner img {
-  width: 20%;
-  height: 20%;
-  object-fit: cover;
+  width: 15%;
+  /* height: 10%; */
+  margin: 0 20px 0 20px;
+  object-fit: contain;
 }
 
-/* End Partner */
-#service {
-  position: absolute;
+.info-panel {
+  background-color: white;
+  border-radius: 25px;
+  margin-top: -200px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
 }
 
-#service .card {
-  position: absolute;
-  width: 100%;
-  top: 10%;
+.info-panel img {
+  width: 120px;
+  height: 120px;
 }
 
-/* end partnert */
-/* choose-us */
+/* choose-us Section*/
 #choose-us img {
   width: 80%;
 }
 
-/* end choose us */
-/* Bets Seller */
+/* Bets Seller  Section*/
 #best-seller .card {
   width: 18rem;
   border-radius: 10px;
@@ -88,34 +96,80 @@ p {
   font-weight: bold;
 }
 
-/* End Best Seller */
-/* Discount */
-#discount .jumbotron-yellow {
+/* Discount  Section*/
+#discount .discount-panel {
+  /* margin-top: 20%; */
   background-color: #FFF7E3;
+  margin-bottom: -10%;
+  border-radius: 10px;
+  /* height: 395px; */
 }
 
 #discount input {
   width: 35%;
 }
 
-/* End Discount */
-/* Footer */
+/* Footer Section */
 #footer {
   background-color: #00186F;
   color: white !important;
+  z-index: -1;
 }
 
 #footer .footer-content {
   padding-top: 15%;
 }
 
-/* End Footer */
-h1, h3 {
-  color: #476FFF;
-  font-weight: bold;
+/* Mobile Version */
+@media only screen and (max-width: 600px) {
+
+  /* Navbar Section */
+  .btn-right {
+    position: static;
+  }
+
+  /* Hero Section */
+  .hero {
+    margin-top: 20%;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  /* parnert */
+  #partner .jumbotron {
+    height: 300px;
+  }
+
+  /* Best Seller Section */
+  .product-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  /* Discount Section */
+  #discount .discount-panel {
+    margin-bottom: -22%;
+  }
 }
 
-.btn-right {
-  position: absolute;
-  right: 50px;
+/* Ipod Version */
+@media only screen and (min-width: 768px) {
+  #partner .jumbotron {
+    height: 400px;
+  }
+
+  .product-item {
+    margin-bottom: 30px !important;
+  }
+
+  .card {
+    width: 100% !important;
+  }
 }
